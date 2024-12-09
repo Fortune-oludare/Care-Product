@@ -160,7 +160,7 @@ p{
     display: flex;
     justify-content: center;
     background: #f16b81;
-    height: 40vh;
+    height: 50vh;
 }
 .move{
   
@@ -286,6 +286,10 @@ footer{
 
 /* surface pro7 912px   Done */
 @media screen and (max-width: 912px) {
+    nav{
+        position:fixed;
+        height: 60px;
+    }
     .logo{
         font-size: 30px;
     }
@@ -355,6 +359,10 @@ footer{
 
 /* ipad pro 1000px Done */
 @media screen and (max-width:1024px) {
+    nav{
+        position:fixed;
+        height: 60px;
+    }
     .logo{
         font-size:30px;
         }
@@ -425,6 +433,10 @@ footer{
 
 /* ipad air 820  Done*/
 @media screen and (max-width:820px) {
+    nav{
+        position:fixed;
+        height: 60px;
+    }
     .logo{
         font-size:30px;
         }
@@ -498,7 +510,10 @@ footer{
 
 /* ipad mini 768px  Done*/
 @media screen and (max-width:768px) {
-    
+    nav{
+        position:fixed;
+        height: 60px;
+    }
     .logo{
         font-size:30px;
         }
@@ -576,6 +591,10 @@ footer{
 /* phones */
 
 @media screen and (max-width:450px) {
+    nav{
+        position:fixed;
+        height: 60px;
+    }
     .logo{
         font-size:20px;
      padding-right: 70%;
@@ -679,4 +698,121 @@ footer{
        margin-top: 0%;
     }
     
+}
+
+/* iphone 6s and more */
+@media screen and (max-width: 376px) {
+    nav{
+        position:fixed;
+        height: 60px;
+    }
+    .logo{
+        font-size:20px;
+        }
+        .main{
+            display: flex;
+            width: 100%;
+            align-items: center;
+            
+            height: 100vh;
+            margin-top: 0px;
+        }
+        .main h1{
+            padding-left: 40px;
+            font-weight: 400;
+            font-size: 35px;
+        }
+        body .main { 
+            padding: 0px 30px;
+        }
+      .btn{
+           margin-left: 30px;
+        }
+        .brands{
+            width: 90px;
+        }
+        .second-side img{
+            display: none;
+        }
+        .main2-first-side h1{
+            font-weight: 400;
+            font-size: 25px;
+        }
+        .main2-first-side p{
+            font-size: 14px;
+        }
+        .main2-first-side h1, p{
+            padding-left: 45px;
+        }
+        .main2{
+            height: 111vh;
+            padding: 20px 10px;
+        }
+        .box1 p{
+            font-size: 14px;
+        }
+        .icon-p{
+            padding: 0px;
+            font-size: 20px !important;
+        }
+        .box1{
+            height: 380px;
+            width: 50%;
+            padding: 0px 0px;
+        }
+        .box1:nth-child(2){
+           display: none;
+        }
+        .main3-first-side{
+            width: 100%;
+            font-size: 8px;
+           }
+           .border-right{
+           padding: 5px;
+           }
+           .main3-second-side{
+               padding: 10px;
+           }
+           .flexcomment  .move{
+            font-size: 25px;
+        }
+           .main3-second-side h1{
+             padding-left: 40px;
+             font-weight: 400;
+           }
+           .btn2{
+            margin-left: 40px;
+           }
+   
+    .main4{
+        height:100vh;
+    }
+    .main4box{
+        margin-right: 25px;
+        font-size: 10px;
+        height: 109px;
+    }
+    .main4box h4{
+     font-size: 10px;
+    }
+    .main4h1{
+        font-size: 25px;
+        display: flex;
+    }
+     .main4flexbox{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .footerflexbox p{
+        font-size: 10px;
+    }
+    .flexonerap{
+        margin-top: 0%;
+        gap: 30px;   
+    }       
+    footer{
+        padding: 0px 0px 0px 20px;
+        width: 100%;
+    }
 }
