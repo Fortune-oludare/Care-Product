@@ -113,7 +113,7 @@ p{
     
 }
 .main2{
-    background: url(/pink.jpeg);
+    background: url(pink.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
