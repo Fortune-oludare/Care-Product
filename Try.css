@@ -285,7 +285,7 @@ footer{
 }
 
 /* surface pro7 912px   Done */
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 915px) {
     nav{
         position:fixed;
         height: 60px;
@@ -332,6 +332,9 @@ footer{
 .main4{
     height: 100vh;
 }
+.main4box{
+    height: 160px;
+}
 .main4h1{
     display: flex;
 }
@@ -341,7 +344,7 @@ footer{
     gap: 100px;
 }
 .flexonerap{
-    gap: 100px;   
+    gap: 00px;   
 }
 footer{
     padding: 0px 0px 0px 50px;
@@ -602,6 +605,14 @@ footer{
      .links{
         display: none;
      }
+     .btn{
+        margin-left: 29px;
+     }
+     .main h1{
+        padding-left: 25px;
+        font-size: 35px;
+        padding-bottom: 30px;
+     }
         .main{
             display: flex;
             height: 111vh;
@@ -626,6 +637,9 @@ footer{
         .main2-first-side h1, p{
             padding-left: 30px;
         }
+        .main2-first-side h1{
+            padding-left:30px;
+        }
         .main2{
             height: 111vh;
             padding: 100px 10px;
@@ -634,7 +648,7 @@ footer{
             font-size: 50px;
         }
         .box1{
-            height: 380px;
+            height: 415px;
             width: 50%;
             padding: 0px 8px;
         }
@@ -649,12 +663,36 @@ footer{
     .main3-center h1,p{
         padding-left: 30px;
     }
+       .main3-side p{
+        padding-left: 45px;
+       }
     .main3-second-side{
         padding: 60px 60px;
     }
     .main3-second-side h1{
       padding-left: 20px;
     }
+
+
+    .border-right{
+        padding: 5px;
+        }
+        .main3-second-side{
+            padding: 10px;
+        }
+        .flexcomment  .move{
+         font-size: 25px;
+     }
+        .main3-second-side h1{
+          padding-left: 40px;
+          font-weight: 400;
+        }
+        .btn2{
+         margin-left: 40px;
+        }
+
+
+
     .flexcomment  .move{
         font-size: 25px;
     }
@@ -664,12 +702,15 @@ footer{
     .main4h1{
         display: flex;
     }
+    .main4box{
+        height: 210px;
+    }
      .main4flexbox{
         margin-right: 20px;
         padding-right: 40px;
         display: flex;
         flex-wrap: wrap;
-        gap: 100px;
+        gap: 50px;
     }
     .footerflexbox p{
         font-size: 11px;
@@ -790,7 +831,7 @@ footer{
     .main4box{
         margin-right: 25px;
         font-size: 10px;
-        height: 109px;
+        height: 135px;
     }
     .main4box h4{
      font-size: 10px;
